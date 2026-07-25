@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partisan+ - Demande de droits d'auteur</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0b1020, #151d36, #0b1020);
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+}
+
+.logo {
+    width: min(320px, 80vw);
+    margin-bottom: 45px;
+    user-select: none;
+    -webkit-user-drag: none;
+    filter: drop-shadow(0 10px 30px rgba(0,0,0,.35));
+}
+
+.button {
+    display: inline-block;
+    background: white;
+    color: #111827;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 42px;
+    border-radius: 14px;
+    transition: .25s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 35px rgba(0,0,0,.35);
+    background: #f3f4f6;
+}
+
+.button:active {
+    transform: translateY(0);
+}
+
+@media (max-width:600px) {
+    .button {
+        width: 100%;
+        max-width: 320px;
+        font-size: 18px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <img src="partisan_plus.png" alt="Partisan+" class="logo">
+
+    <br>
+
+    <a class="button"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSch37M5TN95sTXFm2D7pqzzAWyuS05aZ2MuYJWxiev9897rEQ/viewform"
+       target="_blank"
+       rel="noopener noreferrer">
+        Envoyer une demande de droits d'auteur
+    </a>
+
+</div>
+
+</body>
+</html>
